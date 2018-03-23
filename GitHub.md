@@ -145,3 +145,19 @@ $ git push force origin master<br>
 $ git config http.postBuffer 52428800 <br>
 可以使上传的容量变大
 </P>
+
+<h4>
+删除本地仓库与远程仓库的关联
+</h4>
+<p>
+$ git remote rm origin<br>
+查看<br>
+$ git remote -v
+</p>
+
+<h4>
+删除远程仓库的文件
+</h4>
+<p>
+首先先将本地仓库的文件删除, 然后提交
+</p>
